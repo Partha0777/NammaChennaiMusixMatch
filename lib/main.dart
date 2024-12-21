@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 
+import 'View/launch_screen.dart';
+
 void main() {
   runApp(GetMaterialApp(
     title: 'Flutter Demo',
@@ -13,18 +15,3 @@ void main() {
   ));
 }
 
-class LaunchScreen extends StatefulWidget {
-  const LaunchScreen({super.key});
-
-  @override
-  State<StatefulWidget> createState() => _LaunchScreenState();
-}
-
-class _LaunchScreenState extends State<LaunchScreen>{
-  @override
-  Widget build(BuildContext context) {
-
-    return SizedBox();
-  }
-
-}
