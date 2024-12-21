@@ -52,7 +52,7 @@ class GetStartedPage extends StatelessWidget {
               backgroundColor: Colors.grey.shade800,
               textColor: Colors.white,
               onPressed: () {
-                print("Google Login");
+
               },
             ),
             const SizedBox(height: 10),
@@ -62,7 +62,7 @@ class GetStartedPage extends StatelessWidget {
               backgroundColor: Colors.blue,
               textColor: Colors.white,
               onPressed: () {
-                print("Facebook Login");
+
               },
             ),
             const SizedBox(height: 10),
@@ -72,7 +72,7 @@ class GetStartedPage extends StatelessWidget {
               backgroundColor: Colors.black,
               textColor: Colors.white,
               onPressed: () {
-                print("Apple Login");
+
               },
             ),
             const SizedBox(height: 10),
@@ -82,7 +82,7 @@ class GetStartedPage extends StatelessWidget {
               backgroundColor: Colors.grey.shade800,
               textColor: Colors.white,
               onPressed: () {
-                print("Email Login");
+
               },
             ),
             const SizedBox(height: 60),
@@ -97,7 +97,7 @@ class GetStartedPage extends StatelessWidget {
             const SizedBox(height: 30),
             InkWell(
                 onTap: () {
-                  print('Go to Musixmatch Pro');
+                  
                 },
                 child: const Row(
                   mainAxisAlignment: MainAxisAlignment.center,

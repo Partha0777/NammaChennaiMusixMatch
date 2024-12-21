@@ -1,6 +1,8 @@
 
 import 'dart:ui';
 
+import 'package:flutter/material.dart';
+
 class Utility {
   static Color hexToColor(String? hexString) {
     if (hexString == null || hexString.isEmpty) {
