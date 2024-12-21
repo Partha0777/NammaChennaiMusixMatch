@@ -16,17 +16,19 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Launch(),
+      home: const LaunchScreen(),
     );
   }
 }
 
-class Launch extends StatefulWidget {
+class LaunchScreen extends StatefulWidget {
+  const LaunchScreen({super.key});
+
   @override
-  State<StatefulWidget> createState() => _LaunchState();
+  State<StatefulWidget> createState() => _LaunchScreenState();
 }
 
-class _LaunchState extends State<Launch>{
+class _LaunchScreenState extends State<LaunchScreen>{
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
