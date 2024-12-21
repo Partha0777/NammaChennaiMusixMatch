@@ -46,7 +46,7 @@ class GetStartedPage extends StatelessWidget {
             SizedBox(
               height: 120,
             ),
-            SocialButton(
+            CustomButton(
               icon: Icons.g_mobiledata,
               text: 'Continue with Google',
               backgroundColor: Colors.grey.shade800,
@@ -56,7 +56,7 @@ class GetStartedPage extends StatelessWidget {
               },
             ),
             const SizedBox(height: 10),
-            SocialButton(
+            CustomButton(
               icon: Icons.facebook,
               text: 'Continue with Facebook',
               backgroundColor: Colors.blue,
@@ -66,7 +66,7 @@ class GetStartedPage extends StatelessWidget {
               },
             ),
             const SizedBox(height: 10),
-            SocialButton(
+            CustomButton(
               icon: Icons.apple,
               text: 'Continue with Apple',
               backgroundColor: Colors.black,
@@ -76,7 +76,7 @@ class GetStartedPage extends StatelessWidget {
               },
             ),
             const SizedBox(height: 10),
-            SocialButton(
+            CustomButton(
               icon: Icons.email,
               text: 'Continue with email',
               backgroundColor: Colors.grey.shade800,
@@ -124,14 +124,14 @@ class GetStartedPage extends StatelessWidget {
   }
 }
 
-class SocialButton extends StatelessWidget {
+class CustomButton extends StatelessWidget {
   final IconData icon;
   final String text;
   final Color backgroundColor;
   final Color textColor;
   final VoidCallback onPressed;
 
-  const SocialButton({
+  const CustomButton({
     Key? key,
     required this.icon,
     required this.text,
