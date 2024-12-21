@@ -36,6 +36,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   get: ^4.6.6
+  flutter_staggered_grid_view: ^0.7.0
 
 dev_dependencies:
   flutter_test:
@@ -63,6 +64,14 @@ flutter:
   assets:
      - assets/images/logo_with_name.png
      - assets/images/logo.png
+     - assets/images/chennai_image_1.png
+     - assets/images/chennai_image_2.png
+     - assets/images/chennai_image_3.png
+     - assets/images/chennai_image_4.png
+     - assets/images/chennai_image_5.png
+     - assets/images/chennai_image_6.png
+     - assets/images/chennai_image_7.png
+     - assets/images/enable_microphone.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
