@@ -17,7 +17,7 @@ class _LaunchScreenState extends State<LaunchScreen>{
 
   @override
   void initState() {
-    // TODO: implement initState
+
     super.initState();
     launchController.navigateToOnboardingPage();
 
