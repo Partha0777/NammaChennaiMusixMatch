@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:namma_chennai/Utility/Constants.dart';
 
+import '../View/connect_music_page.dart';
+
 class OnBoardController extends GetxController{
 
   Rx<int> page = 1.obs;
@@ -43,7 +45,9 @@ class OnBoardController extends GetxController{
                 SizedBox(height: 20),
                 Text("To continue you must activate you mircophone on your device!", style: const TextStyle(color: Colors.grey, fontSize: 16, fontWeight: FontWeight.bold),textAlign: TextAlign.center),
                 SizedBox(height: 40),
-                ElevatedButton(onPressed: (){}, child: const Text("Enable MicroPhone", style: TextStyle(color: Colors.black),)),
+                ElevatedButton(onPressed: (){
+                  Get.off(() => ConnectMusicPage());
+                }, child: const Text("Enable MicroPhone", style: TextStyle(color: Colors.black),)),
                 SizedBox(height: 12),
               ],
             ),

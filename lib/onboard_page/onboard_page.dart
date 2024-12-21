@@ -9,7 +9,7 @@ const String onBoardViewOneBodyOne = "Join Namma \nChennai music and \nenjoy the
 const String onBoardViewOneBodyTwo = "Namma ooru Namm Gethu 💪🏻";
 
 const String onBoardViewTwoBodyOne = "Love music & \nMake an impact on how people listen to music";
-const String onBoardViewTwoBodyTwo = "Makkaleee! list namma music";
+const String onBoardViewTwoBodyTwo = "Makkale! listen namma music";
 
 const String onBoardViewThreeBodyOne = "Let's Play \nthe namma chennai songs";
 const String onBoardViewThreeBodyTwo = "Enga ooruu madrassu inga nanga thane addressuu";
