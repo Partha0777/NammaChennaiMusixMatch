@@ -10,16 +10,13 @@ class LaunchScreen extends StatefulWidget {
   State<StatefulWidget> createState() => _LaunchScreenState();
 }
 
-class _LaunchScreenState extends State<LaunchScreen>{
-
-   LaunchScreenController launchController = LaunchScreenController();
+class _LaunchScreenState extends State<LaunchScreen> {
+  LaunchScreenController launchController = LaunchScreenController();
 
   @override
   void initState() {
-
     super.initState();
     launchController.navigateToOnboardingPage();
-
   }
 
   @override
@@ -28,13 +25,13 @@ class _LaunchScreenState extends State<LaunchScreen>{
       body: Container(
         color: Constants.appBgcolor,
         child: Center(
-          child: Image.asset("assets/images/logo.png",
-          height: 100,
+          child: Image.asset(
+            "assets/images/logo.png",
+            height: 100,
             width: 100,
           ),
         ),
       ),
     );
   }
-
 }
