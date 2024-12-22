@@ -4,8 +4,7 @@ import 'package:namma_chennai/View/home_page.dart';
 
 import '../onboard_page/onboard_page.dart';
 
-class LaunchScreenController  {
-
+class LaunchScreenController {
   void navigateToHomeScreen() {
     Get.off(() => HomePage());
   }
