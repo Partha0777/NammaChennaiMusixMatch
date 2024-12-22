@@ -16,4 +16,3 @@ void main() {
     home: const LaunchScreen(),
   ));
 }
-
